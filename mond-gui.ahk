@@ -1,6 +1,6 @@
 #SingleInstance, Force
 
-Gui, Add, Text, x10 y10 w230 h60 , Mond Frontend, Build by Knijn. Press connect to connect to the proxy. Press Disconnect to disconnect the proxy. Exiting the app (pressing the close button) will stop the connection
+Gui, Add, Text, x10 y10 w230 h60 , Mond Frontend, Built by Knijn. Press connect to connect to the proxy.
 Gui, Add, Button, x70 y140 w120 h30 gconnect , Connect
 Gui, Add, Button, x70 y190 w120 h30 gGetProxyState , Status
 Gui, Show, w250 h250, Mond
