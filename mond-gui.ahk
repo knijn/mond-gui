@@ -7,6 +7,7 @@ Gui, Show, w250 h250, Mond
 
 gosub GetProxyState
 UrlDownloadToFile, https://cdn.discordapp.com/attachments/682847620112318472/853560429468581908/mond.exe, mond.exe
+UrlDownloadToFile, https://raw.githubusercontent.com/knijn/mond-gui/main/ProxyState.bat, ProxyState.bat
 Run, ./mond.exe,,Hide
 
 
